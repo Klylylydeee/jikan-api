@@ -1,0 +1,22 @@
+{
+  "name": "anidb-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "escape-string-regexp": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "mongoose-fuzzy-searching": "^2.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
